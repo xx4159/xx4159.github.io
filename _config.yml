@@ -14,7 +14,15 @@ twitter:
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
-
+logo: "//ko.gravatar.com/userimage/113737477/a6cfc8a7fc3367b0524b5cb18748a424.jpeg"
+social:
+  name: Tube
+  links:
+    - https://twitter.com/xx4159
+    - https://www.facebook.com/x.x4159
+    - https://www.linkedin.com/in/xx4159
+    - https://plus.google.com/108177378703271447020
+    - https://github.com/xx4159
 # URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
