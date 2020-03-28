@@ -1,61 +1,50 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Basic
-name:               "Tube"
-description:        "개발자"
+# Site settings
+title:       'DORY'
+email:       'emjeon93@gmail.com'
+description: '도리개발자블로그'
+baseurl:     '' # The subpath of your site, e.g. /blog
+url:         'https://xx4159.github.io/' # The base hostname & protocol for your site
+twitter:     'https://twitter.com/xx4159'
+github:      'https://github.com/xx4159'
+instagram:   'https://www.instagram.com/x.x4159/'
+facebook:    'https://www.facebook.com/x.x4159'
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//xx4159.github.io"
-author:             "xx4159"
-twitter:
-  username:         "xx4159"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
-logo: "//ko.gravatar.com/userimage/113737477/a6cfc8a7fc3367b0524b5cb18748a424.jpeg"
-social:
-  name: Tube
-  links:
-    - https://twitter.com/xx4159
-    - https://www.facebook.com/x.x4159
-    - https://www.linkedin.com/in/xx4159
-    - https://plus.google.com/108177378703271447020
-    - https://github.com/xx4159
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year:month:day/:title/
+markdown:  kramdown
+permalink: pretty
+paginate:  10
 
-# Markdown
-markdown:           kramdown
-
-# Navigation
-# nav:
-#   - name:           "About"
-#     href:           "//xx4159.github.io/about"
-#   - name:           "Download"
-#     href:           "//github.com/gfjaru/Kiko/releases"
-
-# Sass
 sass:
-  style:            :compressed
+  style: compressed
 
-# Scopes
+plugins:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
+  - scope:
+      path: '_pages'
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+      permalink: /:basename:output_ext
 
-gems:
-  - jekyll-seo-tag
+remote_theme: aspirethemes/type
