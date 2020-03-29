@@ -2,6 +2,7 @@
 layout: post
 title: Why Node.js?
 description: Node.js and non-blocking I/O , Asyncronous
+tags: [Node.js]
 ---
 ## Nodejs 는 언제 써요?
 I/O 가 많이 일어날 때 적합 ⭕️

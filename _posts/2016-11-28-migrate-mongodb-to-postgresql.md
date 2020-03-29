@@ -2,6 +2,7 @@
 layout: post
 title: Migrate Mongodb to PostgreSQL
 description: Migrate Mongodb to PostgreSQL
+tags: [mongodb, postgresql]
 ---
 
 mongodb를 sql로 migration을 해보았다.
