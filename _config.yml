@@ -47,4 +47,4 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
-remote_theme: aspirethemes/type
+# remote_theme: aspirethemes/type
