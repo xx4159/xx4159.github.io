@@ -4,15 +4,15 @@ title: redux-tutorial/00_introduction
 description: redux 소개
 tags: [redux]
 ---
+👉 https://github.com/happypoulp/redux-tutorial/wiki
 <!-- Tutorial 0 - introduction.js -->
+# Tutorial 0 - introduction
 <!-- 
 Why this tutorial?
 While trying to learn Redux, I realized that I had accumulated incorrect knowledge about flux through articles I read and personal experience. I don't mean that articles about flux are not well written but I just didn't grasp concepts correctly. In the end, I was just applying documentation of different flux frameworks (Reflux, Flummox, FB Flux) and trying to make them match with the theoretical concept I read about (actions / actions creators, store, dispatcher, etc).
 Only when I started using Redux did I realize that flux is more simple than I thought. This is all thanks to Redux being very well designed and having removed a lot of "anti-boilerplate features" introduced by other frameworks I tried before. I now feel that Redux is a much better way to learn about flux than many other frameworks. That's why I want now to share with everyone, using my own words,
 flux concepts that I am starting to grasp, focusing on the use of Redux.
 -->
-
-👉 https://github.com/happypoulp/redux-tutorial/wiki
 
 ### 이 글을 쓰는 이유.
 Redux를 공부하던중에 내가 flux 글을 잘못 읽고 있었음을 깨달았다. 그 글이 잘못됐다는건 아니고 내가 잘못 이해하고 있었다. 내가 다른 flux 프레임워크 문서를 읽으면서 개념들을 이해하려하고 있었던것이다.
@@ -120,5 +120,5 @@ flux와 flux의 단방향 데이터 흐름을 이용하면 위 예제는 아래�
 
 <!-- Go to next tutorial: 01_simple-action-creator.js -->
 
-다음: [01_simple-action-creator.md](./01_simple-action-creator.md)
+다음: [01_simple action creator](/2020/03/04/redux-tutorial-01-simple-action-creator/)
 
