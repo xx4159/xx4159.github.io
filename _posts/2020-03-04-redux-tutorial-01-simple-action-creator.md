@@ -1,7 +1,7 @@
 ---
 layout: post
 title: redux-tutorial/01_simple action creator
-description: redux 소개
+description: redux action creator
 tags: [redux]
 ---
 👉 https://github.com/happypoulp/redux-tutorial/wiki
@@ -86,4 +86,4 @@ http://redux.js.org/docs/recipes/ReducingBoilerplate.html -->
 action과 action creator에 대해서는 [여기서](https://redux.js.org/recipes/reducing-boilerplate#reducing-boilerplate) 더 자세히 알 수 있다.
 
 <!-- Go to next tutorial: 02_about-state-and-meet-redux.js -->
-다음: [02_about-state-and-meet-redux.md](./02_about-state-and-meet-redux.md)
+다음: [02_about-state-and-meet-redux.md](/2020/03/05/redux-tutorial-02-about-state-and-meet-redux/)
