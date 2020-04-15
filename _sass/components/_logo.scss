@@ -10,7 +10,7 @@
 
     @include attention() {
       color: $color-brand;
-      text-decoration: none;
+      text-decoration: line-through;
     }
   }
 }
