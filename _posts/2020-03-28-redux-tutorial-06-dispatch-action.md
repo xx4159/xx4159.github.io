@@ -194,4 +194,4 @@ console.log('SET_NAME 액션 이후 store_0 상태:', store_0.getState())
 ActionCreator -> Action -> dispatcher -> reducer
 
 <!-- // Go to next tutorial: 07_dispatch-async-action-1.js -->
-다음: [07_dispatch-async-action-1.md](./07_dispatch-async-action-1.md)
+다음: [07_dispatch-async-action-1.md](/2020/03/31/redux-tutorial-07-dispatch-async-action-1/)
