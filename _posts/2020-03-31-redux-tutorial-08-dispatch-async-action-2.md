@@ -1,6 +1,6 @@
 ---
 layout: post
-title: redux-tutorial/07_dispatch async action 2
+title: redux-tutorial/08_dispatch async action 2
 description: redux dispatch async action
 tags: [redux]
 ---
@@ -105,4 +105,4 @@ store_0.dispatch(asyncSayActionCreator_1('Hi'))
 음 의심을 좀 덜어주자면, 우리가 만든 action creator `asyncSayActionCreator_1` 는 잘 짜여졌고 미들웨어가 뭔지 이해하고 어떻게 쓰는지 알게되면 곧 우리가 예상했던대로 동작하게된다.
 
 <!-- Go to next tutorial: 09_middleware.js -->
-다음: [09_middleware.md](./09_middleware.md)
+다음: [09_middleware.md](/2020/04/26/redux-tutorial-09-middleware/)
